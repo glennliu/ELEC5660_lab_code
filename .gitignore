@@ -5,3 +5,5 @@ devel
 build
 *~
 .catkin_workspace
+src/.idea
+src/cmake-build-debug
