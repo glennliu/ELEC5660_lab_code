@@ -1,7 +1,7 @@
 # 2995 + 680(batt) = 3675
-mass        : 1.1
-gra         : 9.81
-hov_percent : 0.20
+mass        : 1.01
+gra         : 9.78
+hov_percent : 0.15
 full_thrust : 60
 ctrl_rate   : 50.0
 js_ctrl_lock_velo: 0.3
@@ -11,15 +11,15 @@ hover:
     use_hov_percent_kf: true
     vert_velo_limit_for_update: 0.2
     vert_height_limit_for_update: 0.2
-    percent_lower_limit: 0.05
-    percent_higher_limit: 0.45
+    percent_lower_limit: 0.10
+    percent_higher_limit: 0.50
 
 gain:
     hover:
         # Controller gain in minimun snap
-        Kp0: 1.7 
-        Kp1: 1.7 
-        Kp2: 1.7
+        Kp0: 1.55
+        Kp1: 1.55 
+        Kp2: 1.55
         Kv0: 2.0
         Kv1: 2.0
         Kv2: 2.0
@@ -36,9 +36,9 @@ gain:
         Kw1: 0.07
         Kw2: 0.07
     track:
-        Kp0: 1.7
-        Kp1: 1.7
-        Kp2: 1.7
+        Kp0: 1.8
+        Kp1: 1.8
+        Kp2: 1.8
         Kv0: 2.0 
         Kv1: 2.0 
         Kv2: 2.0
