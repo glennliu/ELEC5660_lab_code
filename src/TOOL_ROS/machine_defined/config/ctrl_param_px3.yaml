@@ -17,12 +17,12 @@ hover:
 gain:
     hover:
         # Controller gain in minimun snap
-        Kp0: 1.55
-        Kp1: 1.55 
+        Kp0: 1.5
+        Kp1: 1.5 
         Kp2: 1.55
-        Kv0: 2.0
-        Kv1: 2.0
-        Kv2: 2.0
+        Kv0: 3.0
+        Kv1: 3.0
+        Kv2: 3.0
         Kvi0: 0.3
         Kvi1: 0.3
         Kvi2: 0.3
