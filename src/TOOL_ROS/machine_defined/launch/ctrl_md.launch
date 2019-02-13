@@ -1,6 +1,6 @@
 <launch>
 	<arg name="uavname" default="px3" />
-        <arg name="odom_topic" value="/pos_vel_mocap/odom_TA" />
+        <arg name="odom_topic" value="/odom_world" />
 
 	<node pkg="n1ctrl" type="n1ctrl_node" name="n1ctrl" output="screen">
 		<remap from="~joy" to="/djiros/rc" />
