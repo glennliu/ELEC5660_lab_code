@@ -1,1 +1,0 @@
-rosbag record /pos_vel_mocap/odom_TA /desire_pose /djiros/flight_status /n1ctrl/ctrl_dbg/p /n1ctrl/ctrl_dbg/v /n1ctrl/ctrl_dbg/a /n1ctrl/ctrl_dbg/att_des /n1ctrl/ctrl_dbg/att_real /n1ctrl/ctrl_dbg/value /djiros/ctrl /n1ctrl/ctrl_so3/attitude /n1ctrl/ctrl_so3/thrust /position_cmd
