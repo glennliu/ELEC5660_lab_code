@@ -19,7 +19,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${ADDITIONAL_CXX_FLAG}")
 
 
 ## Set this value to true if camera-imu sync function is needed
-set(ENABLE_DJIFOX true)
+set(ENABLE_DJIFOX false)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -167,6 +167,8 @@ if (ENABLE_DJIFOX)
      ${catkin_LIBRARIES}
      ${mvIMPACT_LIBRARIES}
      ${DJIOSDK_LIBRARIES}
+     #/opt/mvIMPAC_Acquire/lib/x86_64/
+     #/opt/mvIMPAC_Acquire/
   )
 
   add_dependencies(djifox_node 
