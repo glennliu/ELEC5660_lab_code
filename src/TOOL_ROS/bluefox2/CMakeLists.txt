@@ -37,7 +37,7 @@ include_directories(
     ${catkin_INCLUDE_DIRS}
     ${mvIMPACT_INCLUDE_DIRS}
         ${MVIMPACT_ACQUIRE_DIR}
-        
+
 )
 
 add_subdirectory(src)
