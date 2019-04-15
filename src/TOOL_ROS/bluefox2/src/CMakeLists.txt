@@ -18,7 +18,7 @@ add_executable(single_node single/single_main.cpp)
 target_link_libraries(single_node ${PROJECT_NAME})
 
 # stereo node
-add_executable(stereo_node stereo/stereo_main.cpp)
+add_executable(stereo_node stereo/stereo_main.cpp stereo/stereo_node.cpp)
 target_link_libraries(stereo_node ${PROJECT_NAME})
 
 # multi node
