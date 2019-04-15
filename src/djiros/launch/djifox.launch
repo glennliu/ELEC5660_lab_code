@@ -11,7 +11,7 @@
         <rosparam>
             # common setting and default individual settings
             verbose_output: false
-            cam_cnt: 1
+            cam_cnt: 2
             fps:  20
             gain: 1.0
             use_auto_exposure: false
@@ -30,16 +30,16 @@
                 auto_speed: 0 # 0--1--2, slow--medium--fast converge to desired value
                 gain: 1.0
                 is_slave: true
-            camera1:
-            serial: "25000049"
-            topic: image1
-            use_auto_exposure: false
-            exposure_time_us: 12000
-            # aec_desired_gray_value: 60
-            # aec_control_delay_frame: 1
-            auto_speed: 0 # 0--1--2, slow--medium--fast converge to desired value
-            gain: 1.0
-            is_slave: true
-        </rosparam>
+	    camera1:
+                serial: "25001254"
+                topic: image1
+                use_auto_exposure: false
+                exposure_time_us: 12000
+                # aec_desired_gray_value: 60
+                # aec_control_delay_frame: 1
+                auto_speed: 0 # 0--1--2, slow--medium--fast converge to desired value
+                gain: 1.0
+                is_slave: true
+       </rosparam>
     </node> 
 </launch>
