@@ -3,8 +3,8 @@
     <arg name="rate" default="20"/>
 
     <!-- Camera Settings -->
-    <arg name="left" default="25000855"/>
-    <arg name="right" default="25001110"/>
+    <arg name="left" default="25001511"/>
+    <arg name="right" default="25000049"/>
     <arg name="left_camera_name" default="mv_$(arg left)"/>
     <arg name="right_camera_name" default="mv_$(arg right)"/>
     <arg name="left_calib_url"
