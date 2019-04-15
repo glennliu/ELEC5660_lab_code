@@ -17,7 +17,7 @@ endif()
 set(ADDITIONAL_CXX_FLAG "-Wall -O3 -g")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${ADDITIONAL_CXX_FLAG}")
 set(mvIMPACT_INCLUDE_DIR /opt/mvIMPACT_acquire)
-set(mvIMPACT_LIBRARIES /opt/mvIMPACT_acquire/lib/x86_64)
+#set(mvIMPACT_LIBRARIES /opt/mvIMPACT_acquire/lib/x86_64)
 
 ## Set this value to true if camera-imu sync function is needed
 set(ENABLE_DJIFOX true)
