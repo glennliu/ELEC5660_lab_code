@@ -4,6 +4,10 @@ project(bluefox2)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -std=c++11")
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${PROJECT_SOURCE_DIR}/cmake)
 
+#set(ENV{mvIMPACT} /opt/mvIMPACT_acquire)
+set(ENV{mvIMPACT_INCLUDE_DIRS} /opt/mvIMPACT_acquire)
+
+
 find_package(catkin REQUIRED COMPONENTS
     roscpp nodelet camera_base
     message_generation
@@ -36,8 +40,13 @@ include_directories(
     ${catkin_INCLUDE_DIRS}
     ${mvIMPACT_INCLUDE_DIRS}
         ${MVIMPACT_ACQUIRE_DIR}
-        /opt/mvIMPACT_acquire/
-    )
+        #mvIMPACT/include
+#	/opt/mvIMPACT_acquire
+#        /opt/mvIMPACT_acquire/lib/x86_64
+#        /opt/mvIMPACT_acquire/lib
+
+
+)
 
 add_subdirectory(src)
 

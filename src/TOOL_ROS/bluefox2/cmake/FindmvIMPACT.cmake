@@ -67,12 +67,12 @@ endmacro(mvIMPACT_REPORT_NOT_FOUND)
 get_filename_component(BLUEFOX2_DIR ${CMAKE_CURRENT_SOURCE_DIR} REALPATH)
 list(APPEND mvIMPACT_CHECK_INCLUDE_DIRS
     /opt/mvIMPACT_acquire
-    /opt/mvIMPACT_Acquire
+#    /opt/mvIMPACT_Acquire
     )
 execute_process(COMMAND uname -m COMMAND tr -d '\n' OUTPUT_VARIABLE ARCH)
 list(APPEND mvIMPACT_CHECK_LIBRARY_DIRS
-    /opt/mvIMPACT_acquire/lib/arm64/
-    /opt/mvIMPACT_Acquire/lib/arm64/
+    /opt/mvIMPACT_acquire/lib/x86_64/
+#    /opt/mvIMPACT_Acquire/lib/x86_64/
     )
 
 # Check general hints
@@ -83,6 +83,7 @@ endif()
 
 # Search supplied hint directories first if supplied.
 # Find include directory for mvimpact
+set(mvIMPACT_INCLUDE_DIR /opt/mvIMPACT_acquire)
 message(STATUS "!!!!!!!!! " ${mvIMPACT_INCLUDE_DIR})
 find_path(mvIMPACT_INCLUDE_DIR
     NAMES mvIMPACT_CPP/mvIMPACT_acquire.h
