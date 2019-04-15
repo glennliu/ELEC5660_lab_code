@@ -19,7 +19,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${ADDITIONAL_CXX_FLAG}")
 
 
 ## Set this value to true if camera-imu sync function is needed
-set(ENABLE_DJIFOX false)
+set(ENABLE_DJIFOX true)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
