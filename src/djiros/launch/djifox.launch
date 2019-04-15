@@ -22,7 +22,7 @@
             # individual setting for camera 0
             camera0:
                 serial: "25001511"
-                topic: image
+                topic: image0
                 use_auto_exposure: false
                 exposure_time_us: 12000
                 # aec_desired_gray_value: 60
@@ -32,7 +32,7 @@
                 is_slave: true
             camera1:
             serial: "25000049"
-            topic: image
+            topic: image1
             use_auto_exposure: false
             exposure_time_us: 12000
             # aec_desired_gray_value: 60
