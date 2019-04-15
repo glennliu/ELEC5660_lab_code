@@ -30,6 +30,16 @@
                 auto_speed: 0 # 0--1--2, slow--medium--fast converge to desired value
                 gain: 1.0
                 is_slave: true
+            camera1:
+            serial: "25000049"
+            topic: image
+            use_auto_exposure: false
+            exposure_time_us: 12000
+            # aec_desired_gray_value: 60
+            # aec_control_delay_frame: 1
+            auto_speed: 0 # 0--1--2, slow--medium--fast converge to desired value
+            gain: 1.0
+            is_slave: true
         </rosparam>
     </node> 
 </launch>
