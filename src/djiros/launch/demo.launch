@@ -21,25 +21,25 @@
 
             # individual setting for camera 0
             camera0:
-            serial: "25001276"
-            topic: image0
-            use_auto_exposure: false
-            exposure_time_us: 12000
-            # aec_desired_gray_value: 60
-            # aec_control_delay_frame: 1
-            auto_speed: 0 # 0--1--2, slow--medium--fast converge to desired value
-            gain: 1.0
-            is_slave: true
+                serial: "25001511"
+                topic: image0
+                use_auto_exposure: false
+                exposure_time_us: 12000
+                # aec_desired_gray_value: 60
+                # aec_control_delay_frame: 1
+                auto_speed: 0 # 0--1--2, slow--medium--fast converge to desired value
+                gain: 1.0
+                is_slave: true
             camera1:
-            serial: "25001254"
-            topic: image1
-            use_auto_exposure: false
-            exposure_time_us: 12000
-            # aec_desired_gray_value: 60
-            # aec_control_delay_frame: 1
-            auto_speed: 0 # 0--1--2, slow--medium--fast converge to desired value
-            gain: 1.0
-            is_slave: true
-        </rosparam>
+                serial: "25000049"
+                topic: image1
+                use_auto_exposure: false
+                exposure_time_us: 12000
+                # aec_desired_gray_value: 60
+                # aec_control_delay_frame: 1
+                auto_speed: 0 # 0--1--2, slow--medium--fast converge to desired value
+                gain: 1.0
+                is_slave: true
+       </rosparam>
     </node>
 </launch>
